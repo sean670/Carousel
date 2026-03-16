@@ -1,33 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+    <title>Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-light">
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Bootstrap Carousel Examples</h1>
+
+        <!-- First Row: 1 Carousel-->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center mb-3">Full Width Carousel</h2>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/siamese.jpg" class="d-block w-100" alt="Siamese">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/tabby.jpg" class="d-block w-100" alt="Tabby">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/beagle.jpg" class="d-block w-100" alt="Beagle">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/golden.jpg" class="d-block w-100" alt="Golden">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/lab.jpg" class="d-block w-100" alt="Lab">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-6">
+                <h2 class="text-center mb-3">Bird Carousel</h2>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/cockatiel.jpg" class="d-block w-100" alt="Cockatiel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/lovebird.jpg" class="d-block w-100" alt="Lovebird">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/parakeet.jpg" class="d-block w-100" alt="Parakeet">
+                        </div>
+                    </div>
+        <div class="row mb-4">
+            <div class="col-6">
+                <h2 class="text-center mb-3">Cat Carousel</h2>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/orange.jpg" class="d-block w-100" alt="Orange">
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/lovebird.jpg" class="d-block w-100" alt="Lovebird">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/parakeet.jpg" class="d-block w-100" alt="Parakeet">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
